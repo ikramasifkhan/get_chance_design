@@ -1,0 +1,621 @@
+/*
+
+In the name of Allah the Benificent the Merciful
+
+*/
+
+/*============================common css start here===========================*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,li{
+    list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    padding: 0;
+    margin: 0;
+}
+
+.section_header{
+    text-align: center;
+    padding-bottom: 45px;
+}
+.section_header h3{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+ .body_section{
+    padding: 45px 0;
+    box-shadow: 1px 1px 2px 1px rgba(10,4,37,.3);
+}
+
+.my_btn{
+    background: #fd4d4d;
+    color: #f9f9fa;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+}
+.my_btn:hover{
+    background: #0A0425;
+    border-color: #0A0425;
+    transition: .5s;
+    color: #f9f9fa;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.card{
+     box-shadow: 1px 1px 2px 1px rgba(10,4,37,.3);
+}
+.card,
+.card-body,
+.card-header,
+.card-footer{
+    border: 0px;
+    background: transparent;
+     text-align: center;
+   padding: 0px;
+}
+.card-footer{
+    padding-bottom: 30px;
+}
+.card-title{
+    margin-bottom: 0px;
+    padding: 30px 0;
+}
+.card-title a{
+    color: #0A0425;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    text-decoration: none;
+   
+}
+
+.card-text{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+/*============================common css start here===========================*/
+
+/*===================smooth schrolling start here======================*/
+.scrollTop{
+   position: fixed;
+   right: 15px;
+   bottom: 30px;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   display: none;
+}
+#scrollTopBtn{
+    display: none;
+    font-size: 50px;
+    text-align: center;
+    color: #fd4d4d;
+}
+/*===================smooth schrolling ends here======================*/
+
+/*====================home page start here==========================*/
+
+
+/*================================header top start here================*/
+.header_top{
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px rgba(10,4,37,.1);
+}
+.header_top p{
+    color: rgba(10,4,37,9);
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 0;
+    font-weight: 500;
+}
+.header_top a{
+    color: rgba(10,4,37,9);
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    font-weight: 500;
+    transition: .1s;
+}
+.header_top a:hover{
+    color: #fd4d4d;
+    transition: .1s;
+}
+/*================================header top end here================*/
+
+/*=======================main menu start here====================*/
+nav{
+    box-shadow: 0 1px 1px rgba(10,4,37,.1);
+}
+#my_menu{
+   width: 100%;
+   z-index: 1;
+}
+
+.navbar-brand{
+    color: #fd4d4d;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.navbar-toggler{
+    color: #0A0425;
+}
+.navbar-toggler-icon{
+    color: #0A0425;
+}
+
+.navbar-nav .nav-link{
+    color: rgba(10,4,37,1);
+    margin : 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .1s;
+}
+.navbar-nav .nav-link:hover{
+    color: #fd4d4d;
+    transition: .1s;
+}
+.navbar-nav .nav-link.active{
+    font-family: 'Montserrat', sans-serif;
+    color: #fd4d4d;
+    font-weight: 600;
+}
+
+.shopping_cart{}
+.shopping_cart a{
+    font-family: 'Montserrat', sans-serif;
+    color: #0A0425;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .1s;
+}
+.shopping_cart:hover a{
+    font-family: 'Montserrat', sans-serif;
+    color: #fd4d4d;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .1s;
+}
+/*=======================mega menu start here=======================*/
+
+ .mega_menu_content{
+    min-width: 700px;
+    background: #0A0425;
+    left: 20px;
+}
+
+.mega_menu_content .column{
+    
+}
+.mega_menu_content .column p{
+    text-align: center;
+}
+.mega_menu_content .column b a{
+    color: #fd4d4d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+.mega_menu_content .column ul li{
+    text-align: center;
+}
+.mega_menu_content .column ul li a{
+    color: #f9f9fa;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    transition: .3s;
+}
+
+.mega_menu_content .column ul li:hover a{
+    color: #fd4d4d;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    transition: .3s;
+}
+
+.dropdown-menu.columns-3{
+    min-width: 700px;
+}
+/*=======================mega menu ends here=======================*/
+
+/*=======================main menu end here====================*/
+
+/*=======================banner part start here============================*/
+.banner{
+    padding-bottom: 45px;
+    box-shadow: 1px 1px 2px 1px rgba(10,4,37,.3);
+}
+/*=======================banner part end here============================*/
+
+/*============================homepage main body start here=========================*/
+.card.registration_card .card-header{
+    position: relative;
+}
+
+.card.registration_card .card-header .card_header_overlay{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background: rgba(10,4,37,.9);
+    transition: .5s
+}
+.card.registration_card .card-header .card_header_overlay h3{
+    color: #ffffff;
+    display: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 50%;
+    transform: translateY(50%);
+     transition: .5s;
+}
+.card.registration_card .card-header:hover .card_header_overlay{
+    height: 100%;
+    transition: .5s;
+}
+.card.registration_card .card-header:hover .card_header_overlay h3{
+    display: block;
+     transition: .5s;
+}
+/*============================homepage main body start here=========================*/
+
+/*===========================motivational_section css part start here==================*/
+.motivational_section{
+    padding:  45px 0;
+    box-shadow: 1px 1px 2px 1px rgba(10,4,37,.3);
+}
+.motivational_section .slider .slide{
+    position: relative;
+}
+.motivational_section .slider .slide .overlay_banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(10,4,37,.6);
+    width: 100%;
+    height: 100%;
+}
+/*===========================motivational_section css part end here==================*/
+
+/*============================footer section start here=================*/
+.footer{
+    background-color: rgba(10,4,37,1);
+    margin-top: 45px;
+}
+.footer_heading{
+    color: #fd4d4d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+.footer_text li a,
+.footer_text{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    transition: .5s;
+    padding-bottom: 30px;
+}
+.footer_text li:hover a{
+     font-family: 'Open Sans', sans-serif;
+    color: #fd4d4d;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.footer .social_icon a{
+    color: #ffffff;
+    padding-right: 10px;
+    font-size: 22px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.footer .social_icon a:hover{
+    color: #fd4d4d;
+    transition: .5s;
+}
+/*============================footer section end here=================*/
+
+/*============================home page end here========================================*/
+
+
+/*================================category page start here===========================*/
+.single_banner{
+    background: url(../images/slider-01.jpg);
+    background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+}
+.single_banner .overlay{
+     background: rgba(10,4,37,.6);
+    padding: 55px 0;
+}
+.single_banner .overlay h3 a,
+.single_banner .overlay h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    transition: .5s;
+}
+.single_banner .overlay h3 a:hover{
+    color: #fd4d4d;
+    transition: .5s;
+}
+
+/*=================================main body start here=======================*/
+.category_main_body.body_section{
+    padding-bottom: 0px;
+}
+.body_content{
+    padding-bottom: 45px;
+}
+/*=================================main body end here=======================*/
+
+/*================================category page end here===========================*/
+
+
+/*==================================product_details page start here========================*/
+
+/*=============about us css part start here=============*/
+.about_us_slider{
+    padding-top: 8px;
+}
+.product_details_about_institute.body_section{
+    
+}
+.product_details_about_institute.body_section .about_institute_content p{
+    font-family: 'Open Sans', sans-serif;
+    color: #0A0425;
+    margin-bottom: 20px;
+}
+.product_details_about_institute.body_section .about_institute_content p strong,
+.product_details_about_institute.body_section .about_institute_content p b
+{
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #0A0425;
+}
+.product_details_about_institute.body_section .about_institute_content table tr td{
+    font-family: 'Open Sans', sans-serif;
+    color: #0A0425;
+}
+.product_details_about_institute.body_section .about_institute_content table tr th{
+    font-family: 'Montserrat', sans-serif;
+    color: #0A0425;
+}
+/*=============about us css part end here=============*/
+
+/*=======================demo question start here================*/
+.demo_question_section .product_detatils_content p{
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #0A0425;
+}
+.demo_question_section .product_detatils_content p b{
+    font-family: 'Montserrat', sans-serif;
+}
+.demo_question_section .product_detatils_content ol li{
+   list-style-type: upper-roman;
+   list-style-position: inside;
+    font-family: 'Open Sans', sans-serif;
+    color: #0A0425;
+}
+
+.demo_question{}
+.demo_question p{
+    margin-bottom: 20px;
+    padding-left: 0px;
+    
+}
+.demo_question p b{
+    font-family: 'Montserrat', sans-serif;
+}
+.demo_question .demo_question_card{
+    box-shadow: none;
+}
+.demo_question .demo_question_card .card-header{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    color: #0A0425;
+}
+.demo_question .demo_question_card .card-header span{
+    color: #fd4d4d; 
+}
+.demo_question .demo_question_card .card-body{
+    text-align: left;
+}
+.demo_question .demo_question_card .card-body ol{
+    padding-left: 100px;
+}
+.demo_question .demo_question_card .card-body ol li{
+     font-family: 'Open Sans', sans-serif;
+    list-style-type: upper-alpha;
+    color: #0A0425;
+}
+.demo_question .demo_question_card .card-footer{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    color: #0A0425;
+}
+
+.demo_question .demo_question_card .card-footer b{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    color: #fd4d4d;
+}
+/*=======================demo question end here================*/
+
+.demo_question_section .cart_quantity{
+    border-color: rgba(10,4,37,.3);
+    color: #0A0425;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 1px;
+}
+.demo_question_section .cart_quantity_submit{
+    background: #fd4d4d;
+    color: #f9f9fa;
+    font-weight: 600;
+    transition: all linear .3s;
+}
+.demo_question_section .cart_quantity_submit:hover{
+    background: #0A0425;
+    color: #f9f9fa;
+    transition: all linear .3s;
+}
+/*==================================product_details page ends here========================*/
+
+/*=======================================cart page starts here=================================*/
+.cart_page{}
+.cart_page table tr td,
+.cart_page table tr th{
+    color: #0A0425;
+    text-align: center;
+    border-color: rgba(10,4,37,.3);
+    font-family: 'Montserrat', sans-serif;
+}
+.cart_page table tr td{
+    font-family: 'Open Sans', sans-serif;
+}
+.cart_page table tr td i{
+    color:#0A0425;
+    font-size: 20px;
+    transition: all linear .3s;
+}
+.cart_page table tr td i:hover{
+    color: #fd4d4d;
+    font-size: 25px;
+    transition: all linear .3s;
+}
+.cart_page .grand_total{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #0A0425;
+}
+.cart_page .cart_quantity{
+    border-color: rgba(10,4,37,.3);
+    color: #0A0425;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 1px;
+}
+.cart_page .cart_quantity_submit{
+    background: #fd4d4d;
+    color: #f9f9fa;
+    font-weight: 600;
+    transition: all linear .3s;
+}
+.cart_page .cart_quantity_submit:hover{
+    background: #0A0425;
+    color: #f9f9fa;
+    transition: all linear .3s;
+}
+/*=======================================cart page ends here=================================*/
+
+/*=========================================registration and login page starts here==========================*/
+.login_page .card,
+.register_page .card{
+    padding: 45px 20px;
+}
+.login_page .card .card-title h3,
+.register_page .card .card-title h3{
+     color: #0A0425;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.login_page .card .card-body .form-group .form-control,
+.register_page .card .card-body .form-group .form-control{
+    color: #0A0425;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.register_page .card .card-footer p{
+    color: #0A0425;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.register_page .card .card-footer p a{
+    color: #fd4d4d;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login_page .card .card-footer a{
+    color: #0A0425;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    transition: all linear .3s;
+}
+.login_page .card .card-footer a:hover{
+    color:#fd4d4d;
+    transition: all linear .3s;
+}
+/*=========================================registration page ends here==========================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
